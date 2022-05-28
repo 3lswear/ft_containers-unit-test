@@ -1,6 +1,8 @@
 #pragma once
 #include "lib.hpp"
 #include "bass24/bass.h"
+#include <string.h>
+#include <sys/wait.h>
 
 #define _CXX "/usr/bin/clang++"
 #define _CXX_FLAGS "-Wall -Wextra -Werror"
